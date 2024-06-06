@@ -45,4 +45,8 @@ sudo dnssec-keygen -a RSASHA256 -f KSK rjtve.com
 sudo dnssec-keygen -a RSASHA256 -b 2048 -n ZONE rjtve.com
 Monitor with mxtoolbox, intodns.com, and whatsmydns.net
 ```
-Backup: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/creating-an-ami-ebs.html
+Backup Links: 
+
+[1] https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ami-store-restore.html#store-ami
+
+[2] https://developer.hashicorp.com/packer/docs/intro/use-cases
