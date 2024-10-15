@@ -1,6 +1,6 @@
 <h1 align="center">Image Upload DNS</h1>
 
-Go upload server in EC2. This setup use HAProxy for SSL termination where the certificate was assigned by Certbot and uploaded to ACM. **Setup:** [Install](https://go.dev/doc/install) and/or [manage](https://go.dev/doc/manage-install), [localhost](https://github.com/pillaiharish/file-upload-server-golang), and [s3 vercel](https://github.com/wolfeidau/echo-s3-middleware/tree/master).
+Go upload server in EC2. This setup use HAProxy for SSL termination where the certificate was assigned by Certbot and uploaded to ACM. **Setup:** [Install](https://go.dev/doc/install) and/or [manage](https://go.dev/doc/manage-install), [localhost](https://github.com/pillaiharish/file-upload-server-golang), and [S3 Vercel](https://github.com/wolfeidau/echo-s3-middleware/tree/master).
 
 ```
 go build -o && go run app.go
