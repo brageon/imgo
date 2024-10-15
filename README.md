@@ -1,9 +1,9 @@
 <h1 align="center">Image Upload DNS</h1>
-Go upload server in EC2 for domain rjtve.com in Cloudflare. This setup use HAProxy for SSL termination where the certificate was assigned by Certbot and uploaded to ACM. In the Console navigate to Application Load Balancer and create 443 Listener. The instance is t3.micro on the free tier. EC2 IP cost $0.005 per hour. VPC resources can't be monitored in the "Billing" section.
+Go upload server in EC2. This setup use HAProxy for SSL termination where the certificate was assigned by Certbot and uploaded to ACM. In the Console navigate to Application Load Balancer and create 443 Listener. The instance is t3.micro on the free tier. EC2 IP cost $0.005 per hour. VPC resources can't be monitored in the "Billing" section. 
 
 ```
 Download https://github.com/moovweb/gvm
-gvm install go1.18 && ps aux | grep gvm
+gvm install go1.23 && ps aux | grep gvm
 ps -p <pid> -o %cpu,%mem,cmd && top -p
 ```
 
